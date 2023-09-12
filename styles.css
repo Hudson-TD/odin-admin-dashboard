@@ -1,3 +1,11 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 .parent-body-container {
   border: 2px solid black;
   display: grid;
@@ -15,17 +23,27 @@
 
 .nav-content-container {
   color: white;
+}
+
+.nav-link-list {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.nav-logo {
-  text-align: center;
+  gap: 25px;
 }
 
 .nav-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   list-style: none;
+  font-size: 1.25rem;
+  gap: 10px;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  color: white;
 }
 
 .header-content-container {
