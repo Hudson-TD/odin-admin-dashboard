@@ -128,7 +128,7 @@
   flex: 1;
   padding: 10px;
   width: 125px;
-  border: 2px solid white;
+  border: 3px solid black;
   border-radius: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -148,6 +148,7 @@
 
 .section-header-text {
   padding-left: 25px;
+  margin-bottom: 20px;
 }
 
 .user-projects-container {
@@ -171,7 +172,7 @@
   flex-direction: column;
   align-items: flex;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
   width: 90%;
   height: 190px;
   padding: 10px;
@@ -180,6 +181,7 @@
   border-left: 7px solid #73877b;
   background-color: white;
   border-radius: 30px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-icons {
